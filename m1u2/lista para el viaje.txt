@@ -1,0 +1,3 @@
+- mochila
+- ropa
+- llaves
