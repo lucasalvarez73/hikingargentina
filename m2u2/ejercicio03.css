@@ -1,0 +1,27 @@
+.contenedor{background-color: antiquewhite;
+    display: inline-flex;
+    border: 5px solid black;
+}
+    
+.item1 {display: flex;
+    align-items: center;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+margin-right: 250px;
+}
+
+    .item2 {background-color: blue;
+        width: 300px;
+        height: 300px;
+        font-size: 30px;
+        margin-left: 250px;
+        margin-right: 250px;
+    
+    }
+    .item3 {background-color: green;
+        width: 300px;
+        height: 300px;
+        font-size: 30px;
+    margin-left: 250px;}
