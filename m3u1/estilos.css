@@ -1,0 +1,125 @@
+/* font-family: 'Poppins', sans-serif; */
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+    background-color: rgb(18, 138, 194);
+    padding: 16px 0;
+    
+}
+header h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+nav{
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+   flex-grow: 1;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: black;
+}
+footer{
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+nav ul li a.activo{
+    background-color: #333;
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+h2{
+    color: #333;
+    font-weight: 300 ;
+}
+.bienvenidos{ width: 75%;
+padding-right: 10px;
+box-sizing: border-box;
+}
+.testimoniosdeusuarios {
+    width: 25%;
+    background-color: lightblue;
+    padding: 16px;
+}
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+.testimoniosdeusuarios .palabras{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    background-color: #ccc;
+    display: block;
+}
+
+/*sección nosotros*/
+
+.historia p{
+    font-size: 16px;
+}
+.persona{
+    display: flex;
+    justify-content: space-between;
+}
+.textos{
+    margin-left: 10px;
+}
+.historia h2{
+    color: rgb(0, 119, 255);
+    
+}
+.staff h2{
+    color:  rgb(0, 119, 255) ;
+}
+
+/*ahora vamos con los lugares*/
+.lugares{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.lugares .info h4{
+    color:rgb(0, 119, 255) ;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid rgb(0, 119, 255);
+    padding-bottom: 10px;
+}
+/*.lugares:nth-child(even){
+    flex-direction: row-reverse;
+}*/
